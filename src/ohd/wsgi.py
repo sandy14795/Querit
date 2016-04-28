@@ -13,7 +13,7 @@ from django.core.wsgi import get_wsgi_application
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "ohd.settings")
 
-application = get_wsgi_application()
+
 
 try:
 	from dj_static import Cling
@@ -22,3 +22,6 @@ try:
 
 except:
 	pass	
+
+
+application = get_wsgi_application()	
