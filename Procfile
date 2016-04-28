@@ -1,1 +1,1 @@
-web: gunicorn ohd.wsgi --pythonpath ../ohd
+web: gunicorn src.ohd.wsgi 
