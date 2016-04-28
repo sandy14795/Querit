@@ -1,1 +1,1 @@
-web: gunicorn ohd.wsgi:application 
+web: gunicorn ohd.wsgi.application 
