@@ -23,5 +23,5 @@ try:
 except:
 	pass	
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "ohd.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "ohd.settings.production")
 application = get_wsgi_application()	
